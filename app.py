@@ -10,134 +10,111 @@ def home():
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lolgorian Technical & Vocational College | Narok County</title>
+<title>LOLGORIAN VOCATIONAL AND TRAINING COLLEGE - Narok County</title>
 <style>
-body{margin:0;font-family:Arial,sans-serif;background:#f2f6fc;color:#222;}
-.top{background:#002366;color:white;padding:8px;text-align:center;font-size:14px;}
-.header{background:linear-gradient(#0d47a1,#1976d2);color:white;padding:40px 20px;text-align:center;}
-.header h1{margin:0;font-size:30px;line-height:1.2;}
-.header h2{margin:10px 0;font-weight:normal;font-size:18px;color:#ffeb3b;}
-.badge{background:white;color:#0d47a1;padding:5px 15px;border-radius:20px;font-weight:bold;display:inline-block;margin-top:10px;}
-.nav{display:flex;flex-wrap:wrap;justify-content:center;background:white;box-shadow:0 2px 4px #0002;position:sticky;top:0;z-index:10;}
-.nav a{padding:12px 18px;text-decoration:none;color:#0d47a1;font-weight:bold;}
-.section{background:white;margin:15px;border-radius:12px;padding:20px;box-shadow:0 2px 8px #0001;}
-h3{color:#0d47a1;border-bottom:3px solid #ff9800;display:inline-block;padding-bottom:5px;}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:15px;}
-.card{border:1px solid #ddd;border-radius:10px;padding:15px;background:#fafcff;}
-.card b{color:#002366;}
-.btn{display:inline-block;background:#0d47a1;color:white;padding:14px 28px;text-decoration:none;border-radius:8px;font-weight:bold;margin:5px;}
-.btn-whatsapp{background:#25D366;}
-.btn-call{background:#ff6f00;}
-table{width:100%;border-collapse:collapse;margin-top:10px;}
-th,td{border:1px solid #ccc;padding:8px;text-align:left;font-size:14px;}
-th{background:#0d47a1;color:white;}
-.footer{background:#001a4d;color:white;text-align:center;padding:20px;margin-top:20px;}
+body{margin:0;font-family:Arial,sans-serif;background:#f5f7fb;color:#222;}
+.header{background:#0d2a54;color:white;padding:50px 20px;text-align:center;}
+.header h1{margin:0;font-size:33px;letter-spacing:1px;}
+.header p{font-size:18px;color:#ffeb3b;margin-top:10px;}
+.badge{background:#ff9800;color:white;padding:8px 20px;border-radius:25px;font-weight:bold;display:inline-block;margin-top:15px;}
+.section{background:white;margin:18px;border-radius:12px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,0.08);}
+h3{color:#0d2a54;border-left:5px solid #ff9800;padding-left:12px;font-size:20px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;}
+.card{border:1px solid #e0e0e0;border-radius:10px;padding:14px;background:#fcfdff;}
+.card b{color:#0d2a54;}
+.card span{font-size:11px;background:#e3f2fd;color:#0d2a54;padding:3px 8px;border-radius:10px;margin-top:5px;display:inline-block;}
+table{width:100%;border-collapse:collapse;margin-top:12px;}
+th,td{border:1px solid #ccc;padding:10px;text-align:left;font-size:14px;}
+th{background:#0d2a54;color:white;}
+.footer{background:#0d2a54;color:white;text-align:center;padding:25px;line-height:1.6;}
+.highlight-link{display:inline-block;background:yellow;color:red;border:3px solid red;padding:12px 25px;font-weight:bold;text-decoration:none;border-radius:10px;margin:15px 0;animation: blink 1.2s infinite;}
+@keyframes blink{50%{background:white;}}
+.btn-olkil{background:#2e7d32;color:white;padding:12px 25px;text-decoration:none;border-radius:8px;font-weight:bold;display:inline-block;margin:10px;}
 </style>
 </head>
 <body>
 
-<div class="top">TVETA Registered | MoE Approved | KNEC & NITA Exam Centre | Code: 2750/0001</div>
-
 <div class="header">
-<h1>LOLGORIAN TECHNICAL & VOCATIONAL COLLEGE</h1>
-<h2>Skills for Employment & Self Reliance - Lolgorian, Narok County</h2>
-<p>P.O BOX 45 - Lolgorian | Email: info@lolgoriantechnical.ac.ke</p>
-<span class="badge">JANUARY / MAY / SEPTEMBER INTAKE ONGOING</span><br><br>
-<a href="https://wa.me/254712345678?text=Hello%20Lolgorian%20Technical%20College%20I%20want%20to%20apply" class="btn btn-whatsapp">Apply on WhatsApp</a>
-<a href="tel:+254712345678" class="btn btn-call">Call Now</a>
-</div>
-
-<div class="nav">
-<a href="#diploma">Diploma</a>
-<a href="#certificate">Certificate</a>
-<a href="#artisan">Artisan</a>
-<a href="#short">Short Courses</a>
-<a href="#contact">Contact</a>
+<h1>LOLGORIAN VOCATIONAL AND TRAINING COLLEGE</h1>
+<p>Lolgorian, Trans Mara West - Narok County | TVETA Registered</p>
+<div class="badge">JANUARY / MAY / SEPTEMBER INTAKE ONGOING</div>
+<p style="margin-top:15px;color:white;">P.O BOX 45, Lolgorian | Skills for Employment & Self-Reliance</p>
 </div>
 
 <div class="section">
 <h3>About The College</h3>
-<p><b>Lolgorian Technical & Vocational College</b> is a premier TVET institution located in Lolgorian, Trans Mara West, Narok County. We train youth in market-driven technical skills with modern workshops, industrial attachment and job linkages.</p>
-<p><b>Our Mission:</b> To provide quality technical training for industrial growth.</p>
+<p><b>LOLGORIAN VOCATIONAL AND TRAINING COLLEGE</b> is a leading TVET institution based in Lolgorian, Narok County. We are accredited by TVETA under the Ministry of Education. We offer hands-on technical training examined by KNEC, NITA and TVET CDACC.</p>
 </div>
 
-<div class="section" id="diploma">
-<h3>🎓 DIPLOMA COURSES (2-3 Years) - KNEC - C- & Above / Certificate Pass</h3>
+<div class="section">
+<h3>🎓 DIPLOMA COURSES (Level 6) - 2 to 3 Years</h3>
+<p><b>Entry:</b> KCSE C- and above OR Pass in relevant Certificate</p>
 <div class="grid">
-<div class="card"><b>1. Diploma in Electrical & Electronics Engineering (Power Option)</b><br>Modules I, II, III</div>
-<div class="card"><b>2. Diploma in Building Technology</b><br>Construction & Management</div>
-<div class="card"><b>3. Diploma in Civil Engineering</b></div>
-<div class="card"><b>4. Diploma in Plumbing & Water Technology</b></div>
-<div class="card"><b>5. Diploma in Automotive Engineering</b><br>Motor Vehicle Mechanics</div>
-<div class="card"><b>6. Diploma in Fashion Design & Garment Making</b></div>
-<div class="card"><b>7. Diploma in Hairdressing & Beauty Therapy (Cosmetology)</b></div>
-<div class="card"><b>8. Diploma in Food & Beverage (Catering)</b><br>Production & Service</div>
-<div class="card"><b>9. Diploma in ICT (Information Communication Technology)</b></div>
-<div class="card"><b>10. Diploma in Business Management</b></div>
-<div class="card"><b>11. Diploma in Supply Chain Management</b></div>
-<div class="card"><b>12. Diploma in Human Resource Management</b></div>
-<div class="card"><b>13. Diploma in Agricultural Engineering</b></div>
-<div class="card"><b>14. Diploma in Welding & Fabrication</b></div>
+<div class="card"><b>Diploma in Electrical & Electronics Engineering</b><br><span>Power / Telecom</span></div>
+<div class="card"><b>Diploma in Building Technology</b></div>
+<div class="card"><b>Diploma in Civil Engineering</b></div>
+<div class="card"><b>Diploma in Plumbing Technology</b></div>
+<div class="card"><b>Diploma in Automotive Engineering</b></div>
+<div class="card"><b>Diploma in Mechanical Engineering</b></div>
+<div class="card"><b>Diploma in Welding and Fabrication</b></div>
+<div class="card"><b>Diploma in Fashion Design and Garment Making</b></div>
+<div class="card"><b>Diploma in Food and Beverage Management</b></div>
+<div class="card"><b>Diploma in Hairdressing and Beauty Therapy</b></div>
+<div class="card"><b>Diploma in ICT</b></div>
+<div class="card"><b>Diploma in Business Management</b></div>
+<div class="card"><b>Diploma in Supply Chain Management</b></div>
+<div class="card"><b>Diploma in HR Management</b></div>
+<div class="card"><b>Diploma in General Agriculture</b></div>
 </div>
 </div>
 
-<div class="section" id="certificate">
-<h3>📜 CERTIFICATE COURSES (1-2 Years) - KNEC/NITA - D+ & D Plain</h3>
+<div class="section">
+<h3>📜 CERTIFICATE COURSES (Level 5) - 1 to 2 Years</h3>
 <table>
-<tr><th>Course</th><th>Exam Body</th><th>Duration</th></tr>
-<tr><td>Certificate in Electrical Installation (Wireman)</td><td>NITA / KNEC</td><td>1 Year</td></tr>
-<tr><td>Certificate in Building Construction Technology</td><td>KNEC</td><td>2 Years</td></tr>
-<tr><td>Certificate in Plumbing</td><td>NITA / KNEC</td><td>1 Year</td></tr>
-<tr><td>Certificate in Masonry</td><td>NITA</td><td>1 Year</td></tr>
-<tr><td>Certificate in Carpentry & Joinery</td><td>NITA</td><td>1 Year</td></tr>
+<tr><th>Course Name</th><th>Exam Body</th><th>Duration</th></tr>
+<tr><td>Certificate in Electrical Engineering / Installation</td><td>KNEC / NITA</td><td>1-2 Years</td></tr>
+<tr><td>Certificate in Building Technology / Masonry / Carpentry</td><td>KNEC / NITA</td><td>1-2 Years</td></tr>
+<tr><td>Certificate in Plumbing</td><td>NITA</td><td>1 Year</td></tr>
 <tr><td>Certificate in Motor Vehicle Mechanics</td><td>NITA</td><td>1 Year</td></tr>
-<tr><td>Certificate in Welding & Metal Fabrication</td><td>NITA</td><td>1 Year</td></tr>
+<tr><td>Certificate in Welding and Fabrication</td><td>NITA</td><td>1 Year</td></tr>
 <tr><td>Certificate in Fashion Design & Tailoring</td><td>NITA</td><td>1 Year</td></tr>
-<tr><td>Certificate in Hairdressing & Beauty Therapy</td><td>NITA</td><td>6 Months - 1 Yr</td></tr>
-<tr><td>Certificate in Food & Beverage / Catering</td><td>KNEC</td><td>1-2 Years</td></tr>
-<tr><td>Certificate in ICT / Computer Packages & Repair</td><td>KNEC</td><td>6 Months - 1 Yr</td></tr>
-<tr><td>Certificate in Business Management / Salesmanship</td><td>KNEC</td><td>1 Year</td></tr>
-<tr><td>Certificate in General Agriculture</td><td>KNEC</td><td>1 Year</td></tr>
+<tr><td>Certificate in Hairdressing & Beauty Therapy</td><td>NITA</td><td>1 Year</td></tr>
+<tr><td>Certificate in Food & Beverage / Catering</td><td>KNEC</td><td>2 Years</td></tr>
+<tr><td>Certificate in ICT</td><td>KNEC</td><td>1 Year</td></tr>
+<tr><td>Certificate in Business Management</td><td>KNEC</td><td>1 Year</td></tr>
 </table>
 </div>
 
-<div class="section" id="artisan">
-<h3>🔧 ARTISAN / GRADE TEST (3-6 Months) - NITA - KCPE & Open</h3>
-<p>For Class 8 leavers. You get Grade III, II, I certificate to start job or own business.</p>
+<div class="section">
+<h3>🔧 ARTISAN & GRADE TEST - 3 to 9 Months</h3>
 <div class="grid">
-<div class="card">Artisan in Electrical Installation</div>
+<div class="card">Artisan in Electrical Installation Grade III, II, I</div>
 <div class="card">Artisan in Motor Vehicle Mechanics</div>
-<div class="card">Artisan in Tailoring / Dressmaking</div>
-<div class="card">Artisan in Hairdressing (Salon)</div>
-<div class="card">Artisan in Plumbing</div>
-<div class="card">Artisan in Masonry / Building</div>
-<div class="card">Artisan in Welding</div>
-<div class="card">Artisan in Carpentry</div>
+<div class="card">Artisan in Building / Masonry / Plumbing</div>
+<div class="card">Artisan in Welding / Carpentry</div>
+<div class="card">Artisan in Garment Making / Tailoring</div>
+<div class="card">Artisan in Hairdressing & Beauty</div>
+<div class="card">Artisan in Food & Beverage</div>
 </div>
 </div>
 
-<div class="section" id="short">
-<h3>⚡ SHORT COURSES (1 Week - 3 Months) - College Certificate</h3>
-<p>Computer Packages, Solar Installation, Biogas, Motorcycle Repair, Cake Baking, Barista, Driving Theory, Entrepreneurship, Beauty (Braiding, Makeup, Nail Tech), CCTV Installation.</p>
-<p><b>Fees:</b> From Ksh 3,500 per course. Hostel available Ksh 3,000/month.</p>
-</div>
-
-<div class="section" id="contact" style="text-align:center;">
-<h3>📞 ADMISSION & CONTACT</h3>
-<p><b>College Location:</b> Lolgorian Town, Narok County - Opposite Ilkarian Market, Near Olkiloriti</p>
-<p><b>Call / WhatsApp:</b> 0712 345 678 / 0745 678 901</p>
-<p><b>Email:</b> admission@lolgoriantechnical.ac.ke</p>
-<p><b>Requirements:</b> KCPE/KCSE result slip, Copy of ID/Birth Cert, 2 Passports</p>
+<div class="section" style="text-align:center;background:#fffde7;border:2px dashed #ff9800;">
+<h3 style="border:none;text-align:center;">🏫 OUR SISTER INSTITUTION</h3>
+<p><b>We proudly partner with Olkiloriti Senior School, Lolgorian</b></p>
+<a href="https://olkiloriti-school-8.onrender.com" target="_blank" class="highlight-link">
+🌍 CLICK HERE TO OPEN OLKILORITI SENIOR SCHOOL WEBSITE
+</a>
 <br>
-<a href="https://wa.me/254712345678?text=Jambo%2C%20naomba%20admission%20letter%20for%20Lolgorian%20Technical%20College" class="btn btn-whatsapp">💬 APPLY ON WHATSAPP NOW</a>
-<br><br>
-<iframe src="https://www.google.com/maps?q=Olkiloriti,Lolgorian&z=14&output=embed" width="100%" height="200" style="border:0;border-radius:10px;"></iframe>
+<a href="https://olkiloriti-school-8.onrender.com" target="_blank" class="btn-olkil">Visit Olkiloriti Senior School</a>
+<p style="font-size:13px;color:#555;">The school offers CBC Senior School Pathways - STEM, Social Sciences & Arts</p>
 </div>
 
 <div class="footer">
-<p><b>LOLGORIAN TECHNICAL & VOCATIONAL COLLEGE</b></p>
-<p>Approved by TVETA & Ministry of Education | ISO Certified Training</p>
-<p>© 2026 | Built by Jeff Web Solutions, Lolgorian | Sister: <a href="https://olkiloriti-school-8.onrender.com" style="color:yellow;">Olkiloriti Senior School</a></p>
+<p><b>LOLGORIAN VOCATIONAL AND TRAINING COLLEGE</b></p>
+<p>Location: Lolgorian Town, Trans Mara West, Narok County, Kenya</p>
+<p>TVETA Registered | KNEC, NITA & CDACC Centre | January, May, September Intake</p>
+<p>© 2026 Lolgorian Vocational and Training College</p>
+<p style="margin-top:10px;">Sister School: <a href="https://olkiloriti-school-8.onrender.com" style="color:#ffeb3b;font-weight:bold;">https://olkiloriti-school-8.onrender.com</a></p>
 </div>
 
 </body>
